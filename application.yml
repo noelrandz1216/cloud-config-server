@@ -5,14 +5,14 @@ eureka:
   instance:
     preferIpAddress: true
     
- microservice:
-   payment-service:
-      endpoints:
-         endpoint:
-            uri: http://PAYMENT-SERVICE/paymentservice/doPayment
+ #microservice:
+ #  payment-service:
+ #     endpoints:
+ #        endpoint:
+ #           uri: http://PAYMENT-SERVICE/paymentservice/doPayment
             
-   order-service:
-      endpoints:
-         endpoint:
-            uri: http://ORDER-SERVICE/order/bookOrder   
+ #  order-service:
+ #     endpoints:
+ #        endpoint:
+ #           uri: http://ORDER-SERVICE/order/bookOrder   
    
