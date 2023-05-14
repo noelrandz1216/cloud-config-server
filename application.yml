@@ -5,11 +5,11 @@ eureka:
   instance:
     preferIpAddress: true
     
- #microservice:
- #  payment-service:
- #     endpoints:
- #        endpoint:
- #           uri: http://PAYMENT-SERVICE/paymentservice/doPayment
+ microservice:
+   document-service:
+      endpoints:
+         endpoint:
+            uri: http://DOCUMENT-SERVICE/
             
  #  order-service:
  #     endpoints:
